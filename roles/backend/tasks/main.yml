@@ -17,7 +17,7 @@
     name: expense
 
 - name: create app directory
-  ansible.builtin.file:
+  ansible.builtin.template:
     path: /app
     state: directory
 
